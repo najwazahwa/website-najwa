@@ -1,0 +1,72 @@
+body {  
+    margin: 0;  
+    
+}  
+  
+a {  
+    text-decoration: none;  
+}  
+
+.header {
+    background-color: rgb(122, 138, 255);
+    height: 90px;
+}
+
+.logosaya{
+    width: 60px;
+    float: left;
+    margin-top: 10px;
+}
+
+.header-list 
+{ 
+    display: flex; 
+    align-items: center; 
+    padding: 10px 20px; 
+} 
+ 
+nav { 
+    flex: 1; 
+    text-align: right; 
+}   
+ 
+nav ul { 
+    display: inline-block; 
+    list-style: none; 
+} 
+ 
+nav ul li { 
+    display: inline-block; 
+    margin-right: 70px; 
+} 
+ 
+nav ul li a { 
+    text-decoration: none; 
+    font-size: 15px; 
+    color: rgb(17, 17, 17); 
+    font-family: sans-serif; 
+} 
+ 
+nav ul li button { 
+    font-size: 20px; 
+    color: bisque; 
+    outline: none; 
+    border: none; 
+    background: transparent; 
+    cursor: pointer; 
+    font-family: sans-serif; 
+} 
+ 
+nav ul li button:hover { 
+    color: #83BD75; 
+} 
+ 
+nav uli a:hover { 
+    color: #83BD75; 
+} 
+ 
+a { 
+    text-decoration: none; 
+    color: #F5F0BB; 
+    font-size: 28px; 
+}
